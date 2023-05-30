@@ -1,0 +1,8 @@
+  PID TTY      STAT   TIME COMMAND
+ 1978 pts/0    Ss     0:00 -bash
+ 2256 pts/0    S+     0:00  \_ ./father
+ 2257 pts/0    Z+     0:00      \_ [son1] <defunct>
+ 2258 pts/0    Z+     0:00      \_ [son2] <defunct>
+ 2259 pts/0    Z+     0:00      \_ [son3] <defunct>
+ 2260 pts/0    S+     0:00      \_ sh -c ps xf > file
+ 2261 pts/0    R+     0:00          \_ ps xf

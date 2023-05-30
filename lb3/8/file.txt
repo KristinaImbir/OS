@@ -1,0 +1,188 @@
+    PID TTY      STAT   TIME COMMAND
+   1332 tty2     Ssl+   0:00 /usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+   1337 tty2     Sl+    0:00  \_ /usr/libexec/gnome-session-binary
+   1328 ?        SLl    0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+   1309 ?        Ss     0:03 /usr/lib/systemd/systemd --user
+   1312 ?        S      0:00  \_ (sd-pam)
+   1334 ?        Ss     0:00  \_ /usr/bin/dbus-broker-launch --scope user
+   1335 ?        S      0:02  |   \_ dbus-broker --log 4 --controller 9 --machine-id f3ac159b5d274325bbcfcac47ebcbbd1 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+   1385 ?        Ssl    0:00  \_ /usr/libexec/gnome-session-ctl --monitor
+   1386 ?        Ssl    0:01  \_ /usr/libexec/uresourced --user
+   1388 ?        Ssl    0:00  \_ /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+   1728 ?        Sl     0:03  |   \_ /usr/bin/gnome-software --gapplication-service
+   1740 ?        Sl     0:00  |   \_ /usr/libexec/evolution-data-server/evolution-alarm-notify
+   1745 ?        Sl     0:00  |   \_ /usr/libexec/gsd-disk-utility-notify
+   1391 ?        Ssl    0:00  \_ /usr/libexec/gvfsd
+   1638 ?        Sl     0:00  |   \_ /usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+   2913 ?        Sl     0:00  |   \_ /usr/libexec/gvfsd-recent --spawner :1.7 /org/gtk/gvfs/exec_spaw/1
+  12824 ?        Sl     0:00  |   \_ /usr/libexec/gvfsd-network --spawner :1.7 /org/gtk/gvfs/exec_spaw/2
+  12969 ?        Sl     0:00  |   \_ /usr/libexec/gvfsd-dnssd --spawner :1.7 /org/gtk/gvfs/exec_spaw/4
+   1396 ?        Sl     0:00  \_ /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   1414 ?        S<sl   2:18  \_ /usr/bin/pipewire
+   1416 ?        S<Lsl   3:08  \_ /usr/bin/wireplumber
+   1446 ?        SLsl  13:09  \_ /usr/bin/gnome-shell
+   3049 ?        SLl    0:18  |   \_ /usr/share/code/code --unity-launch --enable-crashpad
+   3053 ?        S      0:00  |   |   \_ /usr/share/code/code --type=zygote --no-zygote-sandbox --enable-crashpad --enable-crashpad
+   3159 ?        Sl     0:17  |   |   |   \_ /usr/share/code/code --type=gpu-process --enable-crashpad --crashpad-handler-pid=3069 --enable-crash-reporter=5b7667b4-9d50-4e63-a89b-d1d4f89f5831,no_channel --user-data-dir=/home/ormequ/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,319651565320473258,11824048456648231093,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+   3054 ?        S      0:00  |   |   \_ /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
+   3056 ?        S      0:00  |   |   |   \_ /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
+   3182 ?        Sl     0:02  |   |   \_ /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=ru --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=3069 --enable-crash-reporter=5b7667b4-9d50-4e63-a89b-d1d4f89f5831,no_channel --user-data-dir=/home/ormequ/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,319651565320473258,11824048456648231093,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --enable-crashpad
+   3212 ?        Sl     0:53  |   |   \_ /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=3069 --enable-crash-reporter=5b7667b4-9d50-4e63-a89b-d1d4f89f5831,no_channel --user-data-dir=/home/ormequ/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --enable-blink-features=HighlightAPI --lang=ru --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --launch-time-ticks=61512994 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,319651565320473258,11824048456648231093,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:3851df98-94bc-4453-af0d-60615a0c24b5 --enable-crashpad
+   3298 ?        Sl     0:10  |   |   \_ /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=3069 --enable-crash-reporter=5b7667b4-9d50-4e63-a89b-d1d4f89f5831,no_channel --user-data-dir=/home/ormequ/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --lang=ru --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=62165065 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,319651565320473258,11824048456648231093,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:397d9bbd-e2b4-4c81-a540-f4676c8941c7 --vscode-window-kind=shared-process --enable-crashpad
+   3331 ?        Sl     0:00  |   |   |   \_ /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost --logsPath /home/ormequ/.config/Code/logs/20230502T110713
+   3421 ?        Sl     0:00  |   |   |   \_ /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+   3299 ?        Sl     0:11  |   |   \_ /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=ru --service-sandbox-type=none --inspect-port=0 --enable-crashpad --crashpad-handler-pid=3069 --enable-crash-reporter=5b7667b4-9d50-4e63-a89b-d1d4f89f5831,no_channel --user-data-dir=/home/ormequ/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,319651565320473258,11824048456648231093,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --enable-crashpad
+   3432 ?        Sl     0:14  |   |       \_ /home/ormequ/.vscode/extensions/ms-vscode.cpptools-1.14.5-linux-x64/bin/cpptools
+   3072 ?        Sl     2:28  |   \_ /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.MHQQ41 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7
+   3536 ?        S      0:00  |   \_ bwrap --args 42 desktopeditors
+   3553 ?        S      0:00  |   |   \_ bwrap --args 42 desktopeditors
+   3554 ?        Sl     4:49  |   |       \_ ./DesktopEditors
+   3559 ?        S      0:00  |   |           \_ /app/bin/opt/onlyoffice/desktopeditors/editors_helper --type=zygote --no-sandbox --force-device-scale-factor=1 --log-file=/home/ormequ/.var/app/org.onlyoffice.desktopeditors/data/onlyoffice/desktopeditors/data/cache/log.log --log-severity=disable --product-version=Chrome/75 AscDesktopEditor/7.1.0 --lang=en-US
+   3597 ?        Sl     0:01  |   |           |   \_ /app/bin/opt/onlyoffice/desktopeditors/editors_helper --type=zygote --no-sandbox --force-device-scale-factor=1 --log-file=/home/ormequ/.var/app/org.onlyoffice.desktopeditors/data/onlyoffice/desktopeditors/data/cache/log.log --log-severity=disable --product-version=Chrome/75 AscDesktopEditor/7.1.0 --lang=en-US
+   3667 ?        Sl    14:24  |   |           |   \_ /app/bin/opt/onlyoffice/desktopeditors/editors_helper --type=zygote --no-sandbox --force-device-scale-factor=1 --log-file=/home/ormequ/.var/app/org.onlyoffice.desktopeditors/data/onlyoffice/desktopeditors/data/cache/log.log --log-severity=disable --product-version=Chrome/75 AscDesktopEditor/7.1.0 --lang=en-US
+   3774 ?        Sl    14:36  |   |           |   \_ /app/bin/opt/onlyoffice/desktopeditors/editors_helper --type=zygote --no-sandbox --force-device-scale-factor=1 --log-file=/home/ormequ/.var/app/org.onlyoffice.desktopeditors/data/onlyoffice/desktopeditors/data/cache/log.log --log-severity=disable --product-version=Chrome/75 AscDesktopEditor/7.1.0 --lang=en-US
+   3571 ?        Sl     3:39  |   |           \_ /app/bin/opt/onlyoffice/desktopeditors/editors_helper --type=gpu-process --field-trial-handle=7569127762845040784,2477628378318381777,131072 --no-sandbox --disable-d3d11 --log-file=/home/ormequ/.var/app/org.onlyoffice.desktopeditors/data/onlyoffice/desktopeditors/data/cache/log.log --log-severity=disable --product-version=Chrome/75 AscDesktopEditor/7.1.0 --lang=en-US --gpu-preferences=KAAAAAAAAAAgAAAgAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=swiftshader-webgl --log-file=/home/ormequ/.var/app/org.onlyoffice.desktopeditors/data/onlyoffice/desktopeditors/data/cache/log.log --service-request-channel-token=15499154999534096749
+   3594 ?        Sl     0:00  |   |           \_ /app/bin/opt/onlyoffice/desktopeditors/editors_helper --type=utility --field-trial-handle=7569127762845040784,2477628378318381777,131072 --lang=en-US --service-sandbox-type=network --no-sandbox --log-file=/home/ormequ/.var/app/org.onlyoffice.desktopeditors/data/onlyoffice/desktopeditors/data/cache/log.log --log-severity=disable --product-version=Chrome/75 AscDesktopEditor/7.1.0 --lang=en-US --log-file=/home/ormequ/.var/app/org.onlyoffice.desktopeditors/data/onlyoffice/desktopeditors/data/cache/log.log --service-request-channel-token=16372274853495234825 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+  10147 ?        S      0:00  |   \_ bwrap --args 41 zoom
+  10163 ?        S      0:00  |       \_ bwrap --args 41 zoom
+  10164 ?        S      0:00  |           \_ /app/extra/zoom/ZoomLauncher
+  10166 ?        SLl   55:10  |           |   \_ /app/extra/zoom/zoom.real 
+  10170 ?        S      0:00  |           |       \_ cat
+  10171 ?        S      0:00  |           |       \_ cat
+  10203 ?        S      0:00  |           |       \_ /app/extra/zoom/zoom.real --type=zygote --no-zygote-sandbox --disable-seccomp-filter-sandbox --locales-dir-path=/app/extra/zoom/cef/locales --log-severity=disable --resources-dir-path=/app/extra/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 --lang=en-US --user-data-dir=/home/ormequ/.var/app/us.zoom.Zoom/config/cef_user_data --log-file=/app/extra/zoom/debug.log --bridge-obj-name=CefViewClient
+  10244 ?        Sl     0:00  |           |       |   \_ /app/extra/zoom/zoom.real --type=gpu-process --disable-seccomp-filter-sandbox --locales-dir-path=/app/extra/zoom/cef/locales --log-severity=disable --resources-dir-path=/app/extra/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 --lang=en-US --user-data-dir=/home/ormequ/.var/app/us.zoom.Zoom/config/cef_user_data --bridge-obj-name=CefViewClient --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --log-file=/app/extra/zoom/debug.log --shared-files --field-trial-handle=0,i,17713511577109744677,15267093924599493070,131072 --disable-features=NetworkService
+  10205 ?        Z      0:00  |           |       \_ [zypak-sandbox] <defunct>
+  10286 ?        Sl     0:00  |           |       \_ /app/extra/zoom/zoom.real --type=utility --utility-sub-type=network.mojom.NetworkService --lang=ru --service-sandbox-type=none --locales-dir-path=/app/extra/zoom/cef/locales --log-severity=disable --resources-dir-path=/app/extra/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 --lang=en-US --user-data-dir=/home/ormequ/.var/app/us.zoom.Zoom/config/cef_user_data --bridge-obj-name=CefViewClient --log-file=/app/extra/zoom/debug.log --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17713511577109744677,15267093924599493070,131072 --disable-features=NetworkService
+  10222 ?        S      0:00  |           \_ bwrap --args 42 /app/bin/zypak-helper child - /app/extra/zoom/zoom.real --type=zygote --disable-seccomp-filter-sandbox --locales-dir-path=/app/extra/zoom/cef/locales --log-severity=disable --resources-dir-path=/app/extra/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 --lang=en-US --user-data-dir=/home/ormequ/.var/app/us.zoom.Zoom/config/cef_user_data --log-file=/app/extra/zoom/debug.log --bridge-obj-name=CefViewClient
+  10223 ?        S      0:00  |               \_ /app/extra/zoom/zoom.real --type=zygote --disable-seccomp-filter-sandbox --locales-dir-path=/app/extra/zoom/cef/locales --log-severity=disable --resources-dir-path=/app/extra/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 --lang=en-US --user-data-dir=/home/ormequ/.var/app/us.zoom.Zoom/config/cef_user_data --log-file=/app/extra/zoom/debug.log --bridge-obj-name=CefViewClient
+   1480 ?        Ssl    0:00  \_ /usr/libexec/xdg-permission-store
+   1484 ?        Ssl    0:00  \_ /usr/libexec/at-spi-bus-launcher
+   1489 ?        S      0:00  |   \_ /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+   1490 ?        S      0:00  |       \_ dbus-broker --log 4 --controller 9 --machine-id f3ac159b5d274325bbcfcac47ebcbbd1 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+   1512 ?        Ssl    0:00  \_ /usr/libexec/gnome-shell-calendar-server
+   1518 ?        Ssl    0:00  \_ /usr/libexec/evolution-source-registry
+   1527 ?        S<Lsl   5:55  \_ /usr/bin/pipewire-pulse
+   1535 ?        Ssl    0:00  \_ /usr/libexec/dconf-service
+   1545 ?        Ssl    0:00  \_ /usr/libexec/gvfs-udisks2-volume-monitor
+   1550 ?        Ssl    0:00  \_ /usr/libexec/gvfs-mtp-volume-monitor
+   1554 ?        Ssl    0:00  \_ /usr/libexec/gvfs-gphoto2-volume-monitor
+   1559 ?        SLsl   0:00  \_ /usr/libexec/goa-daemon
+   1560 ?        Ssl    0:00  \_ /usr/libexec/gvfs-goa-volume-monitor
+   1563 ?        Ssl    0:00  \_ /usr/libexec/gvfsd-metadata
+   1572 ?        Ssl    0:00  \_ /usr/libexec/goa-identity-service
+   1582 ?        Ssl    0:00  \_ /usr/libexec/evolution-calendar-factory
+   1584 ?        Ssl    0:00  \_ /usr/libexec/gvfs-afc-volume-monitor
+   1613 ?        Ssl    0:00  \_ /usr/libexec/evolution-addressbook-factory
+   1645 ?        Ssl    0:00  \_ /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   1652 ?        Ssl    0:00  \_ /usr/libexec/at-spi2-registryd --use-gnome-session
+   1655 ?        Ssl    0:27  \_ /usr/bin/ibus-daemon --panel disable
+   1791 ?        Sl     0:00  |   \_ /usr/libexec/ibus-dconf
+   1794 ?        Sl     0:07  |   \_ /usr/libexec/ibus-extension-gtk3
+   1910 ?        Sl     0:07  |   \_ /usr/libexec/ibus-engine-simple
+   3858 ?        Sl     0:00  |   \_ /usr/bin/python3 /usr/share/ibus-typing-booster/engine/main.py --ibus
+   1657 ?        Ssl    0:00  \_ /usr/libexec/gsd-a11y-settings
+   1662 ?        Ssl    0:00  \_ /usr/libexec/gsd-color
+   1665 ?        Ssl    0:00  \_ /usr/libexec/gsd-datetime
+   1668 ?        Ssl    0:00  \_ /usr/libexec/gsd-housekeeping
+   1673 ?        Ssl    0:00  \_ /usr/libexec/gsd-keyboard
+   1683 ?        Ssl    0:00  \_ /usr/libexec/gsd-media-keys
+   1689 ?        Ssl    0:00  \_ /usr/libexec/gsd-power
+   1695 ?        Ssl    0:00  \_ /usr/libexec/gsd-print-notifications
+   1697 ?        Ssl    0:00  \_ /usr/libexec/gsd-rfkill
+   1700 ?        Ssl    0:00  \_ /usr/libexec/gsd-screensaver-proxy
+   1705 ?        Ssl    0:00  \_ /usr/libexec/gsd-sharing
+   1709 ?        Ssl    0:00  \_ /usr/libexec/gsd-smartcard
+   1710 ?        Ssl    0:00  \_ /usr/libexec/gsd-sound
+   1715 ?        Ssl    0:00  \_ /usr/libexec/gsd-usb-protection
+   1721 ?        Ssl    0:00  \_ /usr/libexec/gsd-wacom
+   1810 ?        Ssl    0:00  \_ /usr/bin/abrt-applet --gapplication-service
+   1812 ?        Ssl    0:00  \_ /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+   1814 ?        Ssl    0:03  \_ /usr/libexec/ibus-portal
+   1922 ?        Sl     0:00  \_ /usr/libexec/gsd-printer
+   1946 ?        Ssl    0:00  \_ /usr/libexec/xdg-desktop-portal
+   1956 ?        Ssl    0:00  \_ /usr/libexec/xdg-document-portal
+   1985 ?        Ssl    0:02  \_ /usr/libexec/xdg-desktop-portal-gnome
+   2036 ?        Ssl    0:00  \_ /usr/libexec/xdg-desktop-portal-gtk
+   2046 ?        SNsl   0:00  \_ /usr/libexec/tracker-miner-fs-3
+   2274 ?        Sl    21:59  \_ /usr/lib64/firefox/firefox --new-window
+   2408 ?        Sl     0:00  |   \_ /usr/lib64/firefox/firefox -contentproc -parentBuildID 20230417223520 -prefsLen 32472 -prefMapSize 235071 -appDir /usr/lib64/firefox/browser {69770976-0fdd-4ad4-a70e-6070c25f0e4f} 2274 socket
+   2439 ?        Sl     0:04  |   \_ /usr/lib64/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 32548 -prefMapSize 235071 -jsInitLen 240056 -parentBuildID 20230417223520 -appDir /usr/lib64/firefox/browser {688dd16e-a64b-48f7-a0af-86b650c902c5} 2274 tab
+   2483 ?        Sl     0:09  |   \_ /usr/lib64/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 26627 -prefMapSize 235071 -jsInitLen 240056 -parentBuildID 20230417223520 -appDir /usr/lib64/firefox/browser {cdcd9a71-057f-437a-a064-4ada10120dd8} 2274 tab
+   2584 ?        Sl     2:33  |   \_ /usr/lib64/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 38043 -prefMapSize 235071 -jsInitLen 240056 -parentBuildID 20230417223520 -appDir /usr/lib64/firefox/browser {3276a776-689b-4caa-83ad-45e5a7db7bd1} 2274 tab
+   2644 ?        Sl     1:34  |   \_ /usr/lib64/firefox/firefox -contentproc -parentBuildID 20230417223520 -prefsLen 38021 -prefMapSize 235071 -appDir /usr/lib64/firefox/browser {bf175fc2-7a01-4b21-ab1d-94e7ca22aac2} 2274 rdd
+   2645 ?        Sl     0:11  |   \_ /usr/lib64/firefox/firefox -contentproc -parentBuildID 20230417223520 -sandboxingKind 0 -prefsLen 38021 -prefMapSize 235071 -appDir /usr/lib64/firefox/browser {cc15d376-a2be-4187-a5c1-20a38ad3031a} 2274 utility
+   2697 ?        Sl     0:00  |   \_ /usr/lib64/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 31207 -prefMapSize 235071 -jsInitLen 240056 -parentBuildID 20230417223520 -appDir /usr/lib64/firefox/browser {ef335859-a173-488a-b722-16d861f9b1f9} 2274 tab
+   7785 ?        Sl     0:09  |   \_ /usr/lib64/firefox/firefox -contentproc -childID 26 -isForBrowser -prefsLen 31207 -prefMapSize 235071 -jsInitLen 240056 -parentBuildID 20230417223520 -appDir /usr/lib64/firefox/browser {eaafc09b-e832-4710-b361-5a21b1579d26} 2274 tab
+   7890 ?        Sl     0:02  |   \_ /usr/lib64/firefox/firefox -contentproc -childID 27 -isForBrowser -prefsLen 31207 -prefMapSize 235071 -jsInitLen 240056 -parentBuildID 20230417223520 -appDir /usr/lib64/firefox/browser {7efeab7b-c195-4ffc-84d7-ebd1c59336d4} 2274 tab
+  12885 ?        Sl     0:04  |   \_ /usr/lib64/firefox/firefox -contentproc -childID 59 -isForBrowser -prefsLen 31207 -prefMapSize 235071 -jsInitLen 240056 -parentBuildID 20230417223520 -appDir /usr/lib64/firefox/browser {51399c53-215a-411b-aee4-b3c33ed49ac5} 2274 tab
+  17518 ?        Sl     0:17  |   \_ /usr/lib64/firefox/firefox -contentproc -childID 103 -isForBrowser -prefsLen 31207 -prefMapSize 235071 -jsInitLen 240056 -parentBuildID 20230417223520 -appDir /usr/lib64/firefox/browser {959b7eff-524a-4a3c-a662-68bce4622f57} 2274 tab
+  27247 ?        Sl     0:01  |   \_ /usr/lib64/firefox/firefox -contentproc -childID 155 -isForBrowser -prefsLen 31264 -prefMapSize 235071 -jsInitLen 240056 -parentBuildID 20230417223520 -appDir /usr/lib64/firefox/browser {68551249-a550-4333-8e35-3facfa79174e} 2274 tab
+  33126 ?        Sl     0:00  |   \_ /usr/lib64/firefox/firefox -contentproc -childID 187 -isForBrowser -prefsLen 31264 -prefMapSize 235071 -jsInitLen 240056 -parentBuildID 20230417223520 -appDir /usr/lib64/firefox/browser {b91ae1d0-854e-419a-87d9-5a46f97d6005} 2274 tab
+  33417 ?        Sl     0:00  |   \_ /usr/lib64/firefox/firefox -contentproc -childID 188 -isForBrowser -prefsLen 31264 -prefMapSize 235071 -jsInitLen 240056 -parentBuildID 20230417223520 -appDir /usr/lib64/firefox/browser {85d878cc-1e03-4897-9a40-35db4429ee19} 2274 tab
+  33715 ?        Sl     0:00  |   \_ /usr/lib64/firefox/firefox -contentproc -childID 189 -isForBrowser -prefsLen 31264 -prefMapSize 235071 -jsInitLen 240056 -parentBuildID 20230417223520 -appDir /usr/lib64/firefox/browser {a7f73675-c655-45d5-9640-c60bf10dbb58} 2274 tab
+  33892 ?        Sl     0:00  |   \_ /usr/lib64/firefox/firefox -contentproc -childID 190 -isForBrowser -prefsLen 31264 -prefMapSize 235071 -jsInitLen 240056 -parentBuildID 20230417223520 -appDir /usr/lib64/firefox/browser {4ccbf3f2-b573-4469-80d6-051d47310ed6} 2274 tab
+   2301 ?        Ss     0:04  \_ /usr/libexec/cgroupify app-gnome-firefox-2274.scope
+   2875 ?        Ssl    0:01  \_ /usr/bin/nautilus --gapplication-service
+   3069 ?        Sl     0:00  \_ /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/ormequ/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=a8655e8c-c5b3-43ef-99c2-ce7d6b1dc382&iid=a8655e8c-c5b3-43ef-99c2-ce7d6b1dc382&sid=a8655e8c-c5b3-43ef-99c2-ce7d6b1dc382 --annotation=IsOfficialBuild=1 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.75.1 --annotation=exe=/usr/share/code/code --unity-launch --enable-crashpad --annotation=lsb-release=Fedora Linux 37 (Workstation Edition) --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=19.1.9 --initial-client-fd=41 --shared-client-connection
+   3103 ?        Ssl    0:04  \_ /usr/libexec/gsd-xsettings
+   3130 ?        Sl     0:05  \_ /usr/libexec/ibus-x11
+   3542 ?        Ssl    0:00  \_ /usr/libexec/flatpak-session-helper
+   3546 ?        Ss     0:00  \_ server --sh -n /run/user/1000/.flatpak-helper/pkcs11-flatpak-3542 --provider p11-kit-trust.so pkcs11:model=p11-kit-trust?write-protected=yes
+  11471 ?        S      0:00  |   \_ p11-kit-remote --provider p11-kit-trust.so pkcs11:model=p11-kit-trust?write-protected=yes
+  21509 ?        S      0:00  |   \_ p11-kit-remote --provider p11-kit-trust.so pkcs11:model=p11-kit-trust?write-protected=yes
+   3549 ?        S      0:00  \_ bwrap --args 42 xdg-dbus-proxy --args=44
+   3550 ?        Sl     0:00  |   \_ xdg-dbus-proxy --args=44
+   4389 ?        Ss     0:00  \_ /usr/libexec/bluetooth/obexd
+  10160 ?        S      0:00  \_ bwrap --args 41 xdg-dbus-proxy --args=43
+  10161 ?        Sl     0:00  |   \_ xdg-dbus-proxy --args=43
+  10174 ?        Ssl    0:00  \_ /usr/libexec/flatpak-portal
+  10207 ?        Ss     0:00  |   \_ bwrap --args 42 /app/bin/zypak-helper child - /app/extra/zoom/zoom.real --type=zygote --disable-seccomp-filter-sandbox --locales-dir-path=/app/extra/zoom/cef/locales --log-severity=disable --resources-dir-path=/app/extra/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 --lang=en-US --user-data-dir=/home/ormequ/.var/app/us.zoom.Zoom/config/cef_user_data --log-file=/app/extra/zoom/debug.log --bridge-obj-name=CefViewClient
+  11534 ?        Ssl    0:20  \_ /usr/libexec/gnome-terminal-server
+  11566 pts/0    Ss     0:01  |   \_ zsh
+  33929 pts/0    S      0:00  |   |   \_ zsh
+  34056 pts/0    S+     0:00  |   |       \_ ./father
+  34057 pts/0    Z+     0:00  |   |           \_ [son1] <defunct>
+  34058 pts/0    Z+     0:00  |   |           \_ [son2] <defunct>
+  34059 pts/0    Z+     0:00  |   |           \_ [son3] <defunct>
+  34060 pts/0    S+     0:00  |   |           \_ sh -c ps xf > file.txt
+  34062 pts/0    R+     0:00  |   |               \_ ps xf
+  25563 pts/1    Ss+    0:00  |   \_ zsh
+  25849 pts/2    Ss+    0:01  |   \_ zsh
+  26176 pts/3    Ss+    0:00  |   \_ zsh
+  26458 pts/4    Ss+    0:00  |   \_ zsh
+  26640 pts/5    Ss+    0:00  |   \_ zsh
+  27007 pts/6    Ss+    0:00  |   \_ zsh
+  11592 pts/0    S      0:00  \_ zsh
+  11631 pts/0    Sl     0:00  |   \_ /home/ormequ/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+  11628 pts/0    S      0:00  \_ zsh
+  11629 pts/0    S      0:00  \_ zsh
+  25587 pts/1    S      0:00  \_ zsh
+  25623 pts/1    Sl     0:00  |   \_ /home/ormequ/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+  25620 pts/1    S      0:00  \_ zsh
+  25622 pts/1    S      0:00  \_ zsh
+  25873 pts/2    S      0:00  \_ zsh
+  25909 pts/2    Sl     0:00  |   \_ /home/ormequ/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+  25906 pts/2    S      0:00  \_ zsh
+  25907 pts/2    S      0:00  \_ zsh
+  26200 pts/3    S      0:00  \_ zsh
+  26236 pts/3    Sl     0:00  |   \_ /home/ormequ/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+  26233 pts/3    S      0:00  \_ zsh
+  26234 pts/3    S      0:00  \_ zsh
+  26482 pts/4    S      0:00  \_ zsh
+  26518 pts/4    Sl     0:00  |   \_ /home/ormequ/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+  26515 pts/4    S      0:00  \_ zsh
+  26516 pts/4    S      0:00  \_ zsh
+  26686 pts/5    S      0:00  \_ zsh
+  26702 pts/5    Sl     0:00  |   \_ /home/ormequ/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+  26699 pts/5    S      0:00  \_ zsh
+  26700 pts/5    S      0:00  \_ zsh
+  27031 pts/6    S      0:00  \_ zsh
+  27067 pts/6    Sl     0:00  |   \_ /home/ormequ/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+  27064 pts/6    S      0:00  \_ zsh
+  27066 pts/6    S      0:00  \_ zsh
+  33237 ?        Sl     0:00  \_ /home/ormequ/.vscode/extensions/ms-vscode.cpptools-1.14.5-linux-x64/bin/cpptools-srv 3432 {CE1BCFBF-E955-453F-8704-C574A79E1634}
+  33850 ?        Sl     0:00  \_ /home/ormequ/.vscode/extensions/ms-vscode.cpptools-1.14.5-linux-x64/bin/cpptools-srv 3432 {485A9A90-09DA-4844-BE33-50A1AB49FE57}
+  33952 pts/0    S      0:00  \_ zsh
+  33986 pts/0    Sl     0:00  |   \_ /home/ormequ/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+  33983 pts/0    S      0:00  \_ zsh
+  33984 pts/0    S      0:00  \_ zsh

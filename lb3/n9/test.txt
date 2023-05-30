@@ -1,0 +1,8 @@
+  PID TTY      STAT   TIME COMMAND
+   10 pts/0    Ss     0:00 -bash
+  315 pts/0    S+     0:00  \_ ./father2
+  316 pts/0    S+     0:00      \_ son1
+  317 pts/0    S+     0:00      \_ son2
+  318 pts/0    S+     0:00      \_ son3
+  319 pts/0    S+     0:00      \_ sh -c ps xf > test.txt
+  320 pts/0    R+     0:00          \_ ps xf

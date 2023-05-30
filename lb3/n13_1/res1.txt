@@ -1,0 +1,19 @@
+ PPID   PID  PGID   SID TTY      TPGID STAT   UID   TIME COMMAND
+    8     9     9     9 pts/0      868 Ss    1000   0:01 -bash
+    9   868   868     9 pts/0      868 S+    1000   0:00  \_ ./father res1.txt
+  868   869   868     9 pts/0      868 S+    1000   0:00      \_ son1
+  868   870   868     9 pts/0      868 S+    1000   0:00      \_ ./father res1.txt
+  870   871   868     9 pts/0      868 S+    1000   0:00      |   \_ ./father res1.txt
+  871   875   868     9 pts/0      868 S+    1000   0:00      |   |   \_ sh -c ps -xjf | grep "STAT\|9" > res1.txt
+  875   877   868     9 pts/0      868 R+    1000   0:00      |   |       \_ ps -xjf
+  875   879   868     9 pts/0      868 S+    1000   0:00      |   |       \_ grep STAT\|9
+  870   873   868     9 pts/0      868 S+    1000   0:00      |   \_ sh -c ps -xjf | grep "STAT\|9" > res1.txt
+  873   880   868     9 pts/0      868 R+    1000   0:00      |       \_ ps -xjf
+  873   883   868     9 pts/0      868 S+    1000   0:00      |       \_ grep STAT\|9
+  868   872   868     9 pts/0      868 S+    1000   0:00      \_ ./father res1.txt
+  872   876   868     9 pts/0      868 S+    1000   0:00      |   \_ sh -c ps -xjf | grep "STAT\|9" > res1.txt
+  876   878   868     9 pts/0      868 R+    1000   0:00      |       \_ ps -xjf
+  876   881   868     9 pts/0      868 S+    1000   0:00      |       \_ grep STAT\|9
+  868   874   868     9 pts/0      868 S+    1000   0:00      \_ sh -c ps -xjf | grep "STAT\|9" > res1.txt
+  874   882   868     9 pts/0      868 R+    1000   0:00          \_ ps -xjf
+  874   884   868     9 pts/0      868 S+    1000   0:00          \_ grep STAT\|9

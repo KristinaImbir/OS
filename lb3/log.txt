@@ -1,0 +1,6 @@
+  PID TTY      STAT   TIME COMMAND
+   10 pts/0    Ss     0:00 -bash
+   83 pts/0    S+     0:00  \_ ./a.out 5
+   84 pts/0    Z+     0:00      \_ [ls] <defunct>
+   85 pts/0    S+     0:00      \_ sh -c ps xf > log.txt
+   86 pts/0    R+     0:00          \_ ps xf

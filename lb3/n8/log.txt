@@ -1,0 +1,6 @@
+  PID TTY      STAT   TIME COMMAND
+ 1978 pts/0    Ss     0:00 -bash
+ 2264 pts/0    S+     0:00  \_ ./execv
+ 2265 pts/0    Z+     0:00      \_ [ls] <defunct>
+ 2266 pts/0    S+     0:00      \_ sh -c ps xf > log.txt
+ 2267 pts/0    R+     0:00          \_ ps xf
